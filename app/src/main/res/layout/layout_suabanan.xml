@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:padding="@dimen/size5dp">
+
+    <EditText
+        android:id="@+id/edtSuaBanAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:hint="Bàn ăn"
+        android:padding="@dimen/size10dp"
+        android:textColor="@color/colorGray"
+        android:textColorHint="@color/colorGray"
+        android:textSize="@dimen/size18sp" />
+
+    <Button
+        android:id="@+id/btnDongYSuaBanAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đồng ý"
+        android:textAllCaps="false" />
+</LinearLayout>

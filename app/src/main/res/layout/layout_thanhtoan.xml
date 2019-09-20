@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanh Toán"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size30dp"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/size20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/size10dp"
+        android:background="@color/colorGreen">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Món ăn"
+            android:textSize="@dimen/size18sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số lượng"
+            android:layout_weight="1"
+            android:textSize="@dimen/size18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá tiền"
+            android:layout_weight="1"
+            android:textSize="@dimen/size18sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gvDanhSachThanhToan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:numColumns="1">
+
+    </GridView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Tổng tiền: "
+            android:textSize="@dimen/size18sp"/>
+
+
+        <TextView
+            android:id="@+id/txtTongTien"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="@dimen/size18sp"
+            android:padding="@dimen/size10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/size10dp"
+        android:layout_marginRight="@dimen/size30dp"
+        android:layout_marginLeft="@dimen/size30dp">
+        <Button
+            android:id="@+id/btnThanhTOan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thanh toán"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorread"
+            android:layout_marginRight="@dimen/size10dp"/>
+        <Button
+            android:id="@+id/btnThoatThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorWhite"
+            android:text="@string/thoat"
+            android:background="@color/colororange"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/size10dp"/>
+    </LinearLayout>
+</LinearLayout>

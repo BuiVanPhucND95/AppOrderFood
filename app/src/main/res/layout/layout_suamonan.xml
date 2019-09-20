@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:padding="@dimen/size5dp">
+
+    <EditText
+        android:id="@+id/edtSuaTenMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:hint="Tên món ăn"
+        android:padding="@dimen/size10dp"
+        android:textColor="@color/colorGray"
+        android:textColorHint="@color/colorGray"
+        android:textSize="@dimen/size18sp" />
+    <EditText
+        android:layout_marginTop="@dimen/size18sp"
+        android:id="@+id/edtSuaGiaTienMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:hint="giá tiền"
+        android:inputType="number"
+        android:padding="@dimen/size10dp"
+        android:textColor="@color/colorGray"
+        android:textColorHint="@color/colorGray"
+        android:textSize="@dimen/size18sp" />
+
+    <Button
+        android:id="@+id/btnDongYSuaMonAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đồng ý"
+        android:textAllCaps="false" />
+</LinearLayout>

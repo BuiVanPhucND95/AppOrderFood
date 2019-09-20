@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvtenBA_Custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size5dp"
+        android:text="Bàn 1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imBanAn_Custom"
+        android:layout_width="@dimen/size100dp"
+        android:layout_height="@dimen/size100dp"
+        android:layout_below="@+id/tvtenBA_Custom"
+        android:src="@drawable/banan" />
+
+
+    <ImageView
+        android:id="@+id/imThanhToan_Custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imBanAn_Custom"
+        android:layout_margin="@dimen/size5dp"
+        android:visibility="invisible"
+        android:src="@drawable/thanhtoan" />
+
+
+    <ImageView
+        android:id="@+id/imGoiMon_Custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imBanAn_Custom"
+        android:layout_margin="@dimen/size5dp"
+        android:visibility="invisible"
+        android:layout_toRightOf="@id/imThanhToan_Custom"
+        android:src="@drawable/goimon" />
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imAnButton_Custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imBanAn_Custom"
+        android:layout_margin="@dimen/size5dp"
+        android:layout_toRightOf="@id/imGoiMon_Custom"
+        android:src="@drawable/anbutton" />
+</RelativeLayout>

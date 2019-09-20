@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Order Food</string>
+    <string name="DangKi">Đăng ký</string>
+    <string name="ten_DN">Tên đăng nhập</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="ngay_sinh">Ngày sinh</string>
+    <string name="CMT">Chứng minh thư</string>
+    <string name="thoat">Thoát</string>
+    <string name="trangchu">Trang Chủ</string>
+    <string name="thucdon">Thực đơn</string>
+    <string name="nhanvien">Nhân viên</string>
+    <string name="thongke">Thống kê</string>
+    <string name="caidat">Cài đặt</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+</resources>
